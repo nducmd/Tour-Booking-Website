@@ -1,0 +1,20 @@
+package com.ducnm.tourapp.dto.TourGuides;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Builder
+public class TourGuidesSummaryDto {
+    private Long id;
+    private String ho;
+    private String ten;
+    private String dob;
+    private String phone;
+    private Long salary;
+    private String email;
+}
